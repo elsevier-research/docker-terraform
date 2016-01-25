@@ -2,7 +2,7 @@
 # Terraform image
 #
 
-FROM 1science/alpine:3.1
+FROM 1science/alpine:3.3
 
 # Terraform version
 ENV TERRAFORM_VERSION=0.6.9

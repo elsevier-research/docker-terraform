@@ -20,7 +20,7 @@ docker run -v ${PWD}:/app -w /app -it --rm 1science/terraform:0.6.9 terraform pl
 
 # Build
 
-This project is configured as an [automated build in Dockerhub](https://hub.docker.com/r/1science/alpine/). 
+This project is configured as an [automated build in Dockerhub](https://hub.docker.com/r/1science/terraform/). 
 
 Each branch give the related image tag.  
 
