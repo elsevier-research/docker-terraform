@@ -5,7 +5,7 @@
 FROM 1science/alpine:3.3
 
 # Terraform version
-ENV TERRAFORM_VERSION=0.6.14
+ENV TERRAFORM_VERSION=0.7.6
 
 # Install Terraform
 RUN curl -Ls https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip -o terraform.zip && \
