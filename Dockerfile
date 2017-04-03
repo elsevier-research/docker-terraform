@@ -2,7 +2,10 @@
 # Terraform image
 #
 
-FROM 1science/alpine:3.3
+FROM python:2.7-alpine
+
+RUN apk add --update curl && \
+    rm -rf /var/cache/apk/*
 
 # Terraform version
 ENV TERRAFORM_VERSION=0.8.8
