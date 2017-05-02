@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM python:3.6-slim
 
 ENV TERRAFORM_VERSION=0.8.8
 
