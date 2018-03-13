@@ -1,6 +1,6 @@
 FROM python:3.6-slim
 
-ENV TERRAFORM_VERSION=0.11.2
+ENV TERRAFORM_VERSION=0.11.3
 
 RUN apt-get update \
 	&& apt-get install -y unzip curl ca-certificates libcurl4-openssl-dev \
@@ -12,4 +12,5 @@ RUN apt-get update \
     && unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip \
     && mv terraform* /usr/local/bin/ \
     && rm -rf /tmp/terraform \
-    && apt-get purge -y --auto-remove unzip
+    && apt-get purge -y --auto-remove unzip \
+    && apt-get install -y build-essential libssl-dev libffi-dev tzdata wget vim
