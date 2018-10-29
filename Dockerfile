@@ -13,10 +13,12 @@ RUN apt-get update \
     && rm -rf /tmp/terraform
 
 # install fish shell
-RUN apt-get install -y fish
+RUN apt-get install -y fish git
 
 RUN apt-get purge -y --auto-remove unzip \
     && rm -rf /var/lib/apt/lists/*
+
+RUN curl -L https://get.oh-my.fish > install && fish install --noninteractive
 
 SHELL ["/usr/bin/fish"]
 CMD ["fish"]
