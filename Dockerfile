@@ -11,6 +11,6 @@ RUN apt-get update \
     && unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip \
     && mv terraform* /usr/local/bin/ \
     && rm -rf /tmp/terraform \
-    && apt-get purge -y --auto-remove unzip
+    && apt-get purge -y --auto-remove unzip \
     && rm -rf /var/lib/apt/lists/*
 
