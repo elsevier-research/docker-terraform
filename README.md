@@ -1,6 +1,7 @@
 # What is Terraform?
 
 ![logo](logo.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F1science%2Fdocker-terraform.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2F1science%2Fdocker-terraform?ref=badge_shield)
 
 
 Terraform provides a common configuration to launch infrastructure — from physical and virtual servers to email and DNS providers. 
@@ -30,3 +31,5 @@ All the code contained in this repository, unless explicitly stated, is
 licensed under ISC license.
 
 A copy of the license can be found inside the [LICENSE](LICENSE) file.
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F1science%2Fdocker-terraform.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2F1science%2Fdocker-terraform?ref=badge_large)
