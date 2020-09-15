@@ -30,3 +30,4 @@ RUN fish -c 'omf install aws'
 SHELL ["/usr/bin/fish"]
 CMD ["fish"]
 
+
