@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 
-ENV TERRAFORM_VERSION=0.12.30
+ENV TERRAFORM_VERSION=0.12.31
 
 RUN apt-get update \
     && apt-get install -y unzip curl ca-certificates libcurl4-openssl-dev \
