@@ -15,7 +15,7 @@ See: https://www.terraform.io/
 To run Terraform commands, you can mount your project in a volume under `/app`. 
 
 ```
-docker run -v ${PWD}:/app -w /app -it --rm 1science/terraform:0.12.31-python3.7 terraform plan  
+docker run -v ${PWD}:/app -w /app -it --rm 1science/terraform:0.13.7-python3.7 terraform plan  
 ```
 
 # Build
